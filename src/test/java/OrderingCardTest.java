@@ -143,7 +143,7 @@ public class OrderingCardTest {
         $("[data-test-id='date'] input").sendKeys(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.DELETE);
         $("[data-test-id='date'] input").setValue(planningDate);
         $("[data-test-id='name'] input").setValue("Игорь");
-        $("[data-test-id='phone'] input").setValue("+78005553535");
+        $("[data-test-id='phone'] input").setValue("+79991231212");
         $("[data-test-id='agreement']").click();
         $("button.button").click();
         $("[data-test-id='name'] .input__inner .input__sub")
